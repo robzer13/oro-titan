@@ -1,0 +1,15 @@
+﻿__pycache__/
+*.pyc
+.venv*/ 
+env/
+.vscode/
+.idea/
+
+reports/**
+!reports/_index_v3.csv
+!reports/_index_v3_plus.csv
+!reports/v3_*/*metrics.yaml
+!reports/v3_*/*report.yaml
+!reports/v3_*/*equity_curve.csv
+
+*.log
