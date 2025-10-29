@@ -1,0 +1,26 @@
+﻿data:
+  prices:
+    # Chemin absolu VERS ton CSV de prix (entre quotes !)
+    path: 'C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\data_proc\prices_eod.csv'
+
+backtest:
+  start: 2024-03-28
+  end:   2024-04-12
+
+signals:
+  mom:
+    lookback_days: 10
+
+strategy:
+  topN: 1
+
+rebalance:
+  days: 1
+
+costs:
+  bps: 5
+  
+universe_size: 10
+strategy: ...
+rebalance: ...
+signals: ...

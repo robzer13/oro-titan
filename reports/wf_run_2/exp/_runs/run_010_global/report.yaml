@@ -1,0 +1,27 @@
+engine: v2_factor_topN
+config_used: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_2\exp\_runs\run_010_global\config_used.yaml
+prices_path: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\data_proc\prices_sample.csv
+date_range:
+  start: '2024-01-02'
+  end: '2024-01-05'
+  n_days: 4
+universe_size: 2
+params:
+  signals.kind: mom
+  signals.mom.lookback_days: 10
+  strategy.topN: 1
+  strategy.long_only: true
+  rebalance.days: 5
+  costs.bps: 5.0
+metrics:
+  cagr: -6.994405055138486e-15
+  vol: 0.19156190884407912
+  sharpe: 0.09640882523046686
+  max_drawdown: -0.019607843137254943
+artifacts:
+  returns_wide_csv: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_2\exp\_runs\run_010_global\returns_wide.csv
+  equity_curve_csv: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_2\exp\_runs\run_010_global\equity_curve.csv
+  trades_csv: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_2\exp\_runs\run_010_global\trades.csv
+  metrics_yaml: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_2\exp\_runs\run_010_global\metrics.yaml
+notes: Stratégie momentum top-N égal-pondérée, rééquilibrée périodiquement, coûts
+  en bps appliqués au turnover.

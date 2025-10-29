@@ -1,0 +1,39 @@
+backtest:
+  start: 2023-12-01
+  end: 2024-01-10
+costs:
+  bps: 5
+data:
+  prices:
+    path: ../data_proc/prices_sample.csv
+rebalance:
+  days: 1
+signals:
+  kind: mom
+  mom:
+    lookback_days: 3
+strategy:
+  hold_period_days: 2
+  long_only: true
+  min_weight_change: 0.02
+  require_positive_signal: true
+  topN: 1
+grid:
+  signals.mom.lookback_days:
+  - 3
+  - 5
+  - 10
+  - 20
+  strategy.topN:
+  - 1
+  - 2
+  rebalance.days:
+  - 1
+  - 5
+fixed:
+  costs.bps: 5
+  signals.kind: mom
+  strategy.long_only: true
+cv:
+  kind: holdout
+  split: 0.8

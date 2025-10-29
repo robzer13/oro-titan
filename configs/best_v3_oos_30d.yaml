@@ -1,0 +1,9 @@
+﻿start: 2024-03-01
+end:   2024-04-12
+seed:  123
+equity_start: 1.0
+universe_size: 50
+costs: { bps: 5.0 }
+rebalance: { freq: W-FRI, method: topk }
+signals: { momentum: { lookback: 60 }, quality: { weight: 0.5 } }
+strategy: { name: v3-demo, target_risk: 0.15 }

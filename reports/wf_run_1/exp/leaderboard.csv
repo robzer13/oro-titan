@@ -1,0 +1,17 @@
+run_id,signals.mom.lookback_days,strategy.topN,rebalance.days,cagr,vol,sharpe,mdd,is_cagr,is_sharpe,oos_cagr,oos_sharpe,report_dir
+2025-10-23_06-47-28_001,3,1,1,16.810647202843512,0.10543339960934163,27.522745961797217,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_001_global
+2025-10-23_06-47-28_002,3,1,5,7.270688585120899,0.06028674198226273,35.22182053424172,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_002_global
+2025-10-23_06-47-28_003,3,2,1,22.58170764004711,0.08986022384327984,35.4371106085864,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_003_global
+2025-10-23_06-47-28_004,3,2,5,22.58170764004711,0.08986022384327984,35.4371106085864,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_004_global
+2025-10-23_06-47-28_005,5,1,1,7.270688585120899,0.06028674198226273,35.22182053424172,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_005_global
+2025-10-23_06-47-28_006,5,1,5,7.270688585120899,0.06028674198226273,35.22182053424172,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_006_global
+2025-10-23_06-47-28_007,5,2,1,22.58170764004711,0.08986022384327984,35.4371106085864,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_007_global
+2025-10-23_06-47-28_008,5,2,5,22.58170764004711,0.08986022384327984,35.4371106085864,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_008_global
+2025-10-23_06-47-28_009,10,1,1,7.6220111047309,0.06104238831956294,35.47385458375693,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_009_global
+2025-10-23_06-47-28_010,10,1,5,7.6220111047309,0.06104238831956294,35.47385458375693,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_010_global
+2025-10-23_06-47-28_011,10,2,1,22.58170764004711,0.08986022384327984,35.4371106085864,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_011_global
+2025-10-23_06-47-28_012,10,2,5,22.58170764004711,0.08986022384327984,35.4371106085864,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_012_global
+2025-10-23_06-47-28_013,20,1,1,7.6220111047309,0.06104238831956294,35.47385458375693,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_013_global
+2025-10-23_06-47-28_014,20,1,5,7.6220111047309,0.06104238831956294,35.47385458375693,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_014_global
+2025-10-23_06-47-28_015,20,2,1,22.58170764004711,0.08986022384327984,35.4371106085864,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_015_global
+2025-10-23_06-47-28_016,20,2,5,22.58170764004711,0.08986022384327984,35.4371106085864,0.0,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_1\exp\_runs\run_016_global

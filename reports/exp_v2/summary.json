@@ -1,0 +1,18 @@
+{
+  "best_row": {
+    "run_id": "2025-10-22_20-51-41_009",
+    "signals.mom.lookback_days": 10,
+    "strategy.topN": 1,
+    "rebalance.days": 1,
+    "cagr": 2.6422113778378735,
+    "vol": 0.14595872894071718,
+    "sharpe": 8.952068827503755,
+    "mdd": -0.019607843137254943,
+    "is_cagr": 5.883823198662759,
+    "is_sharpe": 27.478586264368623,
+    "oos_cagr": null,
+    "oos_sharpe": null,
+    "report_dir": "reports\\exp_v2\\_runs\\run_009_global"
+  },
+  "n_runs": 16
+}

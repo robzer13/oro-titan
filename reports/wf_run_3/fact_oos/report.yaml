@@ -1,0 +1,20 @@
+engine: v2_factor_topN
+config_used: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_3\best_oos.yaml
+prices_path: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\data_proc\prices_sample.csv
+date_range:
+  start: null
+  end: null
+  n_days: 0
+universe_size: 2
+params: {}
+metrics:
+  cagr: 0.0
+  vol: 0.0
+  sharpe: 0.0
+  max_drawdown: 0.0
+artifacts:
+  returns_wide_csv: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_3\fact_oos\returns_wide.csv
+  equity_curve_csv: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_3\fact_oos\equity_curve.csv
+  trades_csv: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_3\fact_oos\trades.csv
+  metrics_yaml: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\wf_run_3\fact_oos\metrics.yaml
+notes: Aucune donnée dans la fenêtre sélectionnée.

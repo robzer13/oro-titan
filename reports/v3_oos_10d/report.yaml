@@ -1,0 +1,25 @@
+costs:
+  bps: 5.0
+date_range:
+  end: '2024-04-05'
+  n_days: 12
+  start: '2024-03-21'
+engine:
+  git_sha: unknown
+  name: demo_v3
+rebalance:
+  freq: W-FRI
+  method: topk
+signals_setup:
+  momentum:
+    lookback: 60
+  quality:
+    weight: 0.5
+strategy:
+  name: v3-demo
+  target_risk: 0.15
+universe:
+- AAA
+- BBB
+- CCC
+universe_size: 50

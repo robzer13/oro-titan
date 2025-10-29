@@ -1,0 +1,21 @@
+data:
+  prices:
+    path: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\data_proc\prices_sample.csv
+backtest:
+  start: 2023-12-01
+  end: 2023-12-31
+  split_date: 2024-01-03
+signals:
+  kind: mom
+  mom:
+    lookback_days: 3
+strategy:
+  topN: 2
+  long_only: true
+  require_positive_signal: true
+  min_weight_change: 0.02
+  hold_period_days: 2
+rebalance:
+  days: 5
+costs:
+  bps: 5

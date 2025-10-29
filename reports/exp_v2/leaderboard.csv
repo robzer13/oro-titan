@@ -1,0 +1,9 @@
+run_id,signals.mom.lookback_days,strategy.topN,rebalance.days,cagr,vol,sharpe,mdd,is_cagr,is_sharpe,oos_cagr,oos_sharpe,report_dir
+2025-10-23_18-51-58_001,3,1,1,-0.08558982632408652,0.35246004672234044,-0.07766877062060738,-0.13583100565954465,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\exp_v2\_runs\run_001_global
+2025-10-23_18-51-58_002,5,1,1,-0.02320725819435554,0.3055150411641803,0.07541640790566755,-0.08199191559019714,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\exp_v2\_runs\run_002_global
+2025-10-23_18-51-58_003,10,1,1,-0.33654858747745586,0.31335706281170334,-1.1511984947921525,-0.14882503083696164,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\exp_v2\_runs\run_003_global
+2025-10-23_18-51-58_004,20,1,1,-0.381536045522494,0.2185110486052953,-2.0871618914430985,-0.1207757362165156,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\exp_v2\_runs\run_004_global
+2025-10-23_18-51-58_005,10,1,1,-0.33654858747745586,0.31335706281170334,-1.1511984947921525,-0.14882503083696164,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\exp_v2\_runs\run_005_global
+2025-10-23_18-51-58_006,10,2,1,0.3336948847073835,0.3363305347031023,1.0235074370540003,-0.0901709626855236,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\exp_v2\_runs\run_006_global
+2025-10-23_18-51-58_007,10,1,1,-0.33654858747745586,0.31335706281170334,-1.1511984947921525,-0.14882503083696164,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\exp_v2\_runs\run_007_global
+2025-10-23_18-51-58_008,10,1,5,0.15798245815554668,0.26989074726480755,0.6786346590251375,-0.08421448299760392,,,,,C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\exp_v2\_runs\run_008_global

@@ -1,0 +1,27 @@
+engine: v2_factor_topN
+config_used: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\configs\best_v2_is.yaml
+prices_path: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\data_proc\prices_sample.csv
+date_range:
+  start: '2023-12-01'
+  end: '2024-01-05'
+  n_days: 10
+universe_size: 2
+params:
+  signals.kind: mom
+  signals.mom.lookback_days: 10
+  strategy.topN: 1
+  strategy.long_only: true
+  rebalance.days: 1
+  costs.bps: 5.0
+metrics:
+  cagr: 2.6422113778378735
+  vol: 0.14595872894071718
+  sharpe: 8.952068827503755
+  max_drawdown: -0.019607843137254943
+artifacts:
+  returns_wide_csv: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\fact_best\returns_wide.csv
+  equity_curve_csv: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\fact_best\equity_curve.csv
+  trades_csv: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\fact_best\trades.csv
+  metrics_yaml: C:\Users\robin\Documents\OroTitan_V1.4\oro_titan\reports\fact_best\metrics.yaml
+notes: Stratégie momentum top-N égal-pondérée, rééquilibrée périodiquement, coûts
+  en bps appliqués au turnover.
