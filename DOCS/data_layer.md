@@ -58,6 +58,13 @@ This must print:
 
 If it fails -> check .\tickers.txt and rebuild from yfinance.
 
+### Profiling output
+
+- `python .\scripts\profile_prices.py` writes `.\out\prices_profile.csv` with a per-ticker status column.
+- During the real smoke, the pipeline reads that file and, when any status is not `OK`, appends the comment `profile: X tickers not OK` into `logs\pipeline_checks.csv` while still reporting `[smoke-real] PIPELINE REAL OK`.
+- If `.\out\prices_profile.csv` is missing, the comment falls back to `build OK`.
+- Generated assets (any `.parquet`, files under `.\out\`, and `logs\pipeline_checks.csv`) must stay uncommitted.
+
 
 ## 3. Common errors
 
