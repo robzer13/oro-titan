@@ -210,10 +210,28 @@ def main() -> int:
         
         # Get row count from factors
         rows = get_factor_rows()
-        
+
+        # Check prices profile for non-OK tickers
+        profile_comment = "build OK"
+        profile_file = SCRIPT_ROOT / "out" / "prices_profile.csv"
+        if profile_file.exists():
+            try:
+                with open(profile_file, newline="", encoding="ascii") as profile_csv:
+                    reader = csv.DictReader(profile_csv)
+                    not_ok_count = 0
+                    for row in reader:
+                        status_value = (row.get("status", "") or "").strip()
+                        if status_value.upper() != "OK":
+                            not_ok_count += 1
+                    if not_ok_count > 0:
+                        profile_comment = f"profile: {not_ok_count} tickers not OK"
+            except Exception as exc:
+                print(f"[smoke-real] WARNING: unable to read prices_profile.csv: {exc}")
+                profile_comment = "profile read error"
+
         # Success
         status = "OK"
-        comment = "build OK"
+        comment = profile_comment
         print("[smoke-real] PIPELINE REAL OK")
         return 0
     finally:
