@@ -1,0 +1,21 @@
+﻿scores:
+  momentum_63d:
+    kind: return
+    lookback_days: 63
+  volatility_63d:
+    kind: volatility
+    lookback_days: 63
+
+# Combinaison linéaire attendue par le runner
+weights:
+  momentum_63d: 1.0
+  volatility_63d: -0.5
+
+# Options additionnelles lues par load_scoring_config() (selon ton script)
+options:
+  winsor_pct: 0.01
+  universe:
+    include:
+      - "*.PA"
+      - "*.AS"
+  date_start: "2018-01-01"

@@ -1,0 +1,25 @@
+name,isin,exchange,yahoo_ticker
+LVMH,FR0000121014,Euronext Paris,MC.PA
+L'Oréal,FR0000120321,Euronext Paris,OR.PA
+Air Liquide,FR0000120073,Euronext Paris,AI.PA
+Thales,FR0000121329,Euronext Paris,HO.PA
+Legrand,FR0010307819,Euronext Paris,LR.PA
+Euronext,NL0006294274,Euronext Paris,ENX.PA
+ASML,NL0010273215,Euronext Amsterdam,ASML.AS
+Technip Energies,NL0014559478,Euronext Paris,TE.PA
+Eiffage,FR0000130452,Euronext Paris,FGR.PA
+Edenred,FR0010908533,Euronext Paris,EDEN.PA
+GTT,FR0011726835,Euronext Paris,GTT.PA
+Ipsen,FR0010259150,Euronext Paris,IPN.PA
+Schneider Electric,FR0000121972,Euronext Paris,SU.PA
+Stellantis,NL00150001Q9,Euronext Paris,STLAP.PA
+TotalEnergies,FR0000120271,Euronext Paris,TTE.PA
+Mersen,FR0000039620,Euronext Paris,MRN.PA
+Assystem,FR0000074148,Euronext Paris,ASY.PA
+Dassault Systèmes,FR0014003TT8,Euronext Paris,DSY.PA
+Amundi MSCI EMU High Dividend (ETF),FR0010717090,Euronext Paris,
+Amundi PEA MSCI Emerging Asia (ETF),FR0013412012,Euronext Paris,
+Amundi PEA US Tech (ETF),FR0013412269,Euronext Paris,
+Amundi PEA India MSCI (ETF),FR0011869320,Euronext Paris,
+Amundi EuroStoxx 600 Banks (ETF),LU1834983477,Xetra/Euronext,
+Amundi EuroStoxx 600 Healthcare (ETF),LU1834986900,Xetra/Euronext,

@@ -1,0 +1,11 @@
+weights:
+  rsi_14_z:            0.8
+  macd_diff_z:         1.0
+  bbp_z:               0.6
+  donchian_break20_z:  0.9
+  mom_12_1_z:          1.2
+  rev_5_z:            -0.4
+  atr14_n_z:          -0.3
+  rv_30_z:            -0.2
+  vol_z20_z:          -0.2
+# si une feature n'existe pas, mets-la à 0 OU supprime-la
