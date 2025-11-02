@@ -1,0 +1,37 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/.github/workflows/data-layer.yml b/.github/workflows/data-layer.yml
+new file mode 100644
+index 0000000000000000000000000000000000000000..6a30d177950b1d9bb786b96ebe691e2a6478c909
+--- /dev/null
++++ b/.github/workflows/data-layer.yml
+@@ -0,0 +1,27 @@
++name: Data layer
++
++on:
++  push:
++    branches:
++      - main
++      - 'data-layer/*'
++  pull_request:
++    branches:
++      - main
++      - 'data-layer/*'
++
++jobs:
++  show-scripts:
++    runs-on: ubuntu-latest
++    steps:
++      - uses: actions/checkout@v4
++      - name: Set up Python
++        uses: actions/setup-python@v5
++        with:
++          python-version: '3.10'
++      - name: List pipeline scripts
++        run: ls scripts
++      - name: Display data layer documentation
++        run: cat DOCS/data_layer.md
++      - name: TODO run the real smoke on a Windows runner when available
++        run: echo 'TODO: run the real smoke on a Windows runner when available'
+ 
+EOF
+)
