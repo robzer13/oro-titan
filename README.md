@@ -14,4 +14,4 @@ powershell -ExecutionPolicy Bypass -File .\tools\run_all_v3.ps1
 
 ## Data Layer
 
-Pour le pipeline data (validate -> fix -> build -> factors -> backtest), voir [DOCS\data_layer.md](DOCS/data_layer.md).
+ Pour le pipeline data (validate -> fix -> build -> factors -> backtest) et pour l'étape de profiling, voir [DOCS\data_layer.md](DOCS/data_layer.md).
